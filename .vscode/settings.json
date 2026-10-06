@@ -1,0 +1,16 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.parameterHints.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.suggest.enabled": true,
+  "javascript.validate.enable": true,
+  "typescript.suggest.enabled": true,
+  "files.autoSave": "afterDelay",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.wordBasedSuggestionsMode": "allDocuments"
+}
