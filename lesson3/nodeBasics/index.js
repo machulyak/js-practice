@@ -14,7 +14,7 @@ console.log(chalk.blue.bold(variable1));
 console.log(chalk.redBright.bold(age + 99));
 console.log(user);
 
-let string = 'Hello, World!';
+let string = 'Hello, World! new';
 let number = 42;
 let boolean = true;
 let nullValue = null;
