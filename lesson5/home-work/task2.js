@@ -1,19 +1,20 @@
-const averageGrade = 90
+let averageGrade = 70.4
+let averageGradeRound = Math.round(averageGrade)
 
 switch (true) {
-    case averageGrade < 60:
+    case averageGradeRound < 60:
         console.log("Unsatisfactory");
         break;
-    case averageGrade >= 60 && averageGrade <= 70:
+    case averageGradeRound >= 60 && averageGradeRound <= 70:
         console.log("Satisfactory");
         break;
-    case averageGrade >= 71 && averageGrade <= 80:
+    case averageGradeRound >= 71 && averageGradeRound <= 80:
         console.log("Good");
         break;
-    case averageGrade >= 81 && averageGrade <= 90:
+    case averageGradeRound >= 81 && averageGradeRound <= 90:
         console.log("Very Good");
         break;
-    case averageGrade >= 91 && averageGrade <= 100:
+    case averageGradeRound >= 91 && averageGradeRound <= 100:
         console.log("Excellent");
         break;
     default:

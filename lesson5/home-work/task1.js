@@ -1,17 +1,15 @@
-// Мені здається що межі не коректно задані в завданні
-// що робити з дробними числами? наприклад 70.5, 80.5, 90.5
+let averageGrade = 90.4
+let averageGradeRound = Math.round(averageGrade)
 
-const averageGrade = 90.5
-
-if (averageGrade < 60) {
+if (averageGradeRound < 60) {
     console.log("Unsatisfactory");
-} else if (averageGrade >= 60 && averageGrade <= 70) {
+} else if (averageGradeRound >= 60 && averageGradeRound <= 70) {
     console.log("Satisfactory");
-} else if (averageGrade >= 71 && averageGrade <= 80) {
+} else if (averageGradeRound >= 71 && averageGradeRound <= 80) {
     console.log("Good");
-} else if (averageGrade >= 81 && averageGrade <= 90) {
+} else if (averageGradeRound >= 81 && averageGradeRound <= 90) {
     console.log("Very Good");
-} else if (averageGrade >= 91 && averageGrade <= 100) {
+} else if (averageGradeRound >= 91 && averageGradeRound <= 100) {
     console.log("Excellent");
 } else {
     console.log("Invalid grade");
