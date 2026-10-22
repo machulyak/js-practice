@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 
-const available = 20;
-const ordered = 0;
+const available = 0;
+const ordered = 9999999999;
 
 function checkOrder(available, ordered) {
     if (available < ordered) {
@@ -9,10 +9,10 @@ function checkOrder(available, ordered) {
     }
 
     else if (ordered === 0) {
-        return chalk.yellowBright("Your order is empty");
+        return chalk.yellowBright("Your order is empty.");
     }
     else if (available >= ordered) {
-        return chalk.greenBright("Your order is accepted")
+        return chalk.greenBright("Your order is accepted.")
     };
 
 }
