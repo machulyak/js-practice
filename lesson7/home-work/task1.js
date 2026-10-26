@@ -1,3 +1,4 @@
+// 
 import chalk from 'chalk';
 
 function handleNum(number, evenCallback, oddCallback) {
