@@ -14,3 +14,4 @@ allResults.then(function (results) {
     console.log(results[0]);
     console.log(results[1]);
 });
+  
