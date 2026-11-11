@@ -1,0 +1,5 @@
+node_modules/
+lessons/**
+!lessons/**/
+!lessons/**/home-work/
+!lessons/**/home-work/**
